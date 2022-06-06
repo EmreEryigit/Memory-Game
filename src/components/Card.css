@@ -1,4 +1,25 @@
 .icons {
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+}
+img {
+    border-radius: 10px;
+}
+.card {
+    width: 12rem;
+    height: 12rem;
+    margin: 2px 1px;
+ 
+    background-color: #282c34;
+    color: #61dafb;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(196, 105, 105);
+    
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5px 2px ;
+    
 }
