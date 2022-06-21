@@ -24,14 +24,8 @@ const imgs = [
     src: "http://store-images.s-microsoft.com/image/apps.26737.9007199266244427.c75d2ced-a383-40dc-babd-1ad2ceb13c86.ed1d047e-03d9-4cd8-a342-c4ade1e58951",
     matched: false,
   },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/768px-Facebook_icon.svg.png",
-    matched: false,
-  },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png",
-    matched: false,
-  },
+
+
 ];
 
 const memoSlice = createSlice({
